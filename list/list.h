@@ -19,8 +19,6 @@ typedef struct _list
   int size;
 } list_struct;
 
-typedef void(free_fn)(void *);
-
 List list_new();
 void list_prepend(List, void *);
 void list_append(List, void *);

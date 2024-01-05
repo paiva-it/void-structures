@@ -165,6 +165,8 @@ void list_insert(List list, void *data, int index)
 
   aux->prev->next = node;
   aux->prev = node;
+
+  list->size++;
 }
 
 /*

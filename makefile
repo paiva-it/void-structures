@@ -18,7 +18,7 @@ clean:
 run-tests:
 	@make
 	@echo "Running Tests..."
-	@./main test
+	@./main run-tests
 
 run:
 	@make

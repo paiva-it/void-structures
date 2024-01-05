@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-I.
-DEPS = common.h
-OBJ = main.o
+DEPS = common.h list/list.h
+OBJ = main.o list/list.o
 
 %.o: %.c $(DEPS)
 	@$(CC) -c -o $@ $< $(CFLAGS)
